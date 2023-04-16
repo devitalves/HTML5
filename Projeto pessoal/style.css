@@ -25,7 +25,7 @@
    
 
 body {
-    height:100vh;
+    /* height:100vh; */
     background-color:var(--cor-primaria);
     color: var(--cor-texto);
     box-sizing: border-box;
@@ -36,7 +36,7 @@ body {
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -103,3 +103,12 @@ body {
     font-size: 24px;
 }
 
+.rodape{
+    padding: 24px;
+    color: #000000;
+    background-color:var(--cor-secundaria);
+    text-align: center;
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    font-weight: 400px;
+}
