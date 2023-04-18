@@ -16,8 +16,13 @@
 
 .img1{
     border-radius: 30%;
+    width: 50%;
    
    }
+
+ .imgpc{
+    width: 50%;
+ } 
 
     
 
@@ -35,7 +40,7 @@ body {
 
 .cabecalho__menu__link{
     font-family: var(--fonte-texto);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600px;
     color: var(--cor-secundaria);
     text-decoration: none;
@@ -65,12 +70,13 @@ body {
     align-items: center;
     justify-content: space-between;
     font-family: var(--fonte-texto);
+    gap: 82px;
     
     
 }
 
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -78,13 +84,13 @@ body {
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.,25rem;
     font-family: var(--fonte-titulo)
     
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-texto)
 
 }
@@ -92,7 +98,7 @@ body {
 .apresentacao__conteudo__botao{
     display: flex;
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 1.5rem;
     flex-direction:column;
     align-items:center;
     gap: 32px;
@@ -101,11 +107,11 @@ body {
 
 .apresentacao__conteudo__botao__style{
     display: flex;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border:2px solid var(--cor-secundaria);
     border-radius: 12px;
-    font-size: 17px;
+    font-size: 1.1rem;
     font-weight:600 ;
     padding: 21.5px 0;
     text-decoration: none;
@@ -124,7 +130,7 @@ body {
 .apresentacao__conteudo__subtitulo {
     font-family: var(--fonte-titulo);
     font-weight: 400px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .rodape{
@@ -133,7 +139,22 @@ body {
     background-color:var(--cor-secundaria);
     text-align: center;
     font-family: var(--fonte-texto);
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 400px;
 }
 
+@media (max-width:1000px) {
+    
+    .Cabecalho{
+        padding:10% ;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    
+    .apresentacao{
+        flex-direction: column;
+    }
+  
+}
